@@ -1,0 +1,32 @@
+{
+  "model": "LinearSVC_C0.5",
+  "macro_f1": 0.9220462748638544,
+  "accuracy": 0.9221666666666667,
+  "per_class": [
+    {
+      "label": "World",
+      "precision": 0.9373287671232877,
+      "recall": 0.9123333333333333,
+      "f1": 0.9246621621621621
+    },
+    {
+      "label": "Sports",
+      "precision": 0.9621038876184254,
+      "recall": 0.9816666666666667,
+      "f1": 0.9717868338557993
+    },
+    {
+      "label": "Business",
+      "precision": 0.9021813224267212,
+      "recall": 0.8823333333333333,
+      "f1": 0.8921469497809235
+    },
+    {
+      "label": "Sci/Tech",
+      "precision": 0.8871961102106969,
+      "recall": 0.9123333333333333,
+      "f1": 0.8995891536565325
+    }
+  ],
+  "confusion_matrix_path": "/content/drive/MyDrive/news-headline-cat/reports/figs/cm_dev_LinearSVC_C0.5.png"
+}
